@@ -2,7 +2,7 @@
 * CD - Deploy to EKS cluster from Jenkins Pipeline 
 ### Technologiesused: 
 * Kubernetes, Jenkins, AWS EKS, Docker, Linux 
-## Project Description:
+### Project Description:
 
 ### Install kubectl inside Jenkins Container as root user
 
