@@ -4,6 +4,8 @@
 * Kubernetes, Jenkins, AWS EKS, Docker, Linux 
 ### Project Description:
 
+* Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
+
 ### Install kubectl inside Jenkins Container as root user
 
 
