@@ -1,7 +1,7 @@
 ### Project:
 * CD - Deploy to EKS cluster from Jenkins Pipeline 
 ### Technologiesused: 
-* Kubernetes, Jenkins, AWS EKS, Docker, Linux 
+* Kubernetes, Jenkins, AWS EKS, Docker, Linux , Eksctl
 ### Project Description:
 
 * Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
