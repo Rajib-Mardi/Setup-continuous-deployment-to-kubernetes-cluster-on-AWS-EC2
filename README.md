@@ -9,6 +9,7 @@
 
 ![6 - Deploy to EKS Cluster from Jenkins Pipeline _ TechWorld with Nana - Brave 22-05-2023 12_04_45](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/6f8569d8-aa8c-403a-aa63-9ed135a320dd)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/6f8569d8-aa8c-403a-aa63-9ed135a320dd" width="700">
 
 ### Install aws-iam-authenticator inside Jenkins Container
 * download the aws-iam-authenticatior
@@ -18,10 +19,11 @@
 
 ![root@ubuntu-s-2vcpu-4gb-fra1-01_ ~ 07-05-2023 00_17_07](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/05d434bc-885f-4f25-9d1a-d8b67aeb6c11)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/05d434bc-885f-4f25-9d1a-d8b67aeb6c11" width="700">
 
 ![root@ubuntu-s-2vcpu-4gb-fra1-01_ ~ 07-05-2023 00_17_03](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/950e9368-4511-46fc-b2cb-92412ca92994)
 
-
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/950e9368-4511-46fc-b2cb-92412ca92994" width="700">
 ### Create kubeconfig file to connect to EKS cluster and add it on Jenkins server
 
 * Make a configuration file in the digital ocean sublets 
@@ -34,6 +36,7 @@
 
 ![root@ubuntu-s-2vcpu-4gb-fra1-01_ ~ 22-05-2023 13_21_08](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/e473e0a6-e962-4d2f-88d2-3a2f864c55f6)
 
+<img src="(https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/e473e0a6-e962-4d2f-88d2-3a2f864c55f6" width="700">
 
 ####  copy it to the Jenkins container server.
 
@@ -44,8 +47,11 @@
 
 ![root@ubuntu-s-2vcpu-4gb-fra1-01_ ~ 06-05-2023 20_36_17](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/99c4d885-fb15-4521-b389-31f8c0872214)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/99c4d885-fb15-4521-b389-31f8c0872214" width="700">
+
 ![root@ubuntu-s-2vcpu-4gb-fra1-01_ ~ 06-05-2023 20_42_03](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/ebe21fd3-cdeb-442f-8330-747641f00559)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/ebe21fd3-cdeb-442f-8330-747641f00559" width="700">
 
 * We can see that the kubeconfig file has been copied into Jenkins' home directory using the command ``` cat .kube/config  ```
 
@@ -53,6 +59,7 @@
 
  ![java-maven-app » Folder » Global credentials (unrestricted)  Jenkins  and 48 more pages - Profile 1 - Microsoft​ Edge 06-05-2023 22_40_12](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/68febc48-2c42-469d-9512-e74c61da18d8)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/68febc48-2c42-469d-9512-e74c61da18d8" width="700">
 
 ### Adjust Jenkinsfile to configure EKS cluster deployment 
 
@@ -63,23 +70,26 @@
 
 ![Jenkinsfile - java-maven-app - Visual Studio Code 06-05-2023 23_49_19](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/3b22d3f7-9fa8-4122-bc88-699455388ed2)
 
- 
+ <img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/3b22d3f7-9fa8-4122-bc88-699455388ed2" width="700">
  
   * In the next step, add the commit and push the Jenkinsfile repository to remote repository.
 * run the pipline in jenkins
 * When we run the pipeline in Jenkins, we can see that the pipeline was successfully executed and that the logs for deployment were created.
 
-![java-maven-app » deploy-on-k8s #3 Console  Jenkins  and 50 more pages - Profile 1 - Microsoft​ Edge 07-05-2023 00_20_04](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/2004f8c5-05a1-4c6e-891f-cb0dac7ba6d1)
+![java-maven-app » deploy-on-k8s #3 Console  Jenkins  and 50 more pages - Profile 1 - Microsoft​ Edge 07-05-2023 00_20_04](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/2004f8c5-05a1-4c6e-891f-cb0dac7ba6d1])
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/2004f8c5-05a1-4c6e-891f-cb0dac7ba6d1" width="700">
 
 ![java-maven-app » deploy-on-k8s #3 Console  Jenkins  and 50 more pages - Profile 1 - Microsoft​ Edge 07-05-2023 00_19_56](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/755d39ef-8998-411f-9de2-451b5f8e7d64)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/755d39ef-8998-411f-9de2-451b5f8e7d64" width="700">
 
 * In cluster, the  pods is  running..
 
 
 ![MINGW64__c_Users_Rajib 07-05-2023 00_19_35](https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/79143a2d-830b-4900-8959-6311380e6fc3)
 
+<img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/79143a2d-830b-4900-8959-6311380e6fc3" width="700">
 
 -----------------------------------------------------------------------
 
