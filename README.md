@@ -24,6 +24,7 @@
 
 
 <img src="https://github.com/Rajib-Mardi/Kubernetes-on-AWS-EKS/assets/96679708/950e9368-4511-46fc-b2cb-92412ca92994" width="700">
+
 ### Create kubeconfig file to connect to EKS cluster and add it on Jenkins server
 
 * Make a configuration file in the digital ocean sublets 
